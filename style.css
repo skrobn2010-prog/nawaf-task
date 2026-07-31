@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e40af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #111827;
+    padding: 30px;
+    border-radius: 30px;
+    border: 2px solid #334155;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+
+/* اسم المصمم */
+
+.designer {
+    color: rgba(255,255,255,0.35);
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+
+/* العنوان */
+
+h1 {
+    color: #38bdf8;
+    font-size: 30px;
+}
+
+
+p {
+    color: #cbd5e1;
+}
+
+
+/* خانة المهمة */
+
+.task-box {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+
+input {
+
+    flex: 1;
+    min-width: 0;
+
+    padding: 12px;
+
+    border-radius: 15px;
+
+    border: 2px solid #334155;
+
+    background: #1e293b;
+
+    color:white;
+
+    font-size:14px;
+
+}
+
+
+/* زر الإضافة */
+
+.task-box button {
+
+    width: 75px;
+
+    padding: 10px 5px;
+
+    background:#0ea5e9;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:14px;
+
+}
+
+
+/* المهام */
+
+ul {
+    padding:0;
+}
+
+
+li {
+
+    list-style:none;
+
+    background:#1e293b;
+
+    color:white;
+
+    margin-top:15px;
+
+    padding:14px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+li span {
+
+    flex:1;
+
+    text-align:right;
+
+}
+
+
+/* الصح */
+
+.done-btn {
+
+    background:#22c55e;
+
+    color:white;
+
+    width:36px;
+
+    height:36px;
+
+    border-radius:50%;
+
+    border:none;
+
+}
+
+
+/* الاكس */
+
+.delete-btn {
+
+    background:#111827;
+
+    color:#ff6b6b;
+
+    width:36px;
+
+    height:36px;
+
+    border-radius:50%;
+
+    border:3px solid #ffd700;
+
+}
+
+
+/* النسبة */
+
+#progress {
+
+    color:#38bdf8;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
